@@ -5,6 +5,7 @@ class SARAN extends React.Component {
         return (
             <div>
                 Saranya.B
+                Vijayalakshmi.B
             </div>
         )
     }
