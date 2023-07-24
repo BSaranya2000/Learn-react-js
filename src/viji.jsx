@@ -3,7 +3,7 @@ const Viji = () => {
     return (
     <div>
         Vijayalakshmi.B
-        Sranya.B
+        Saranya.B
     </div>
     )
 }
