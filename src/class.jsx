@@ -6,7 +6,17 @@ class Counterapp extends React.Component {
             count: 0
         }
     }
+    componentDidMount () {
+        console.log("Mounting stage");
+    }
+    componentDidUpdate () {
+        console.log("Updating");
+    }
+    componentWillUnmount () {
+        console.log("Unmount stage");
+    }
     render () {
+        console.log("intialization");
         const {count} = this.state;
         console.log(count , "value");
         return (
@@ -19,4 +29,4 @@ class Counterapp extends React.Component {
         )
     }
 }
-export default Counterapp
+export default Counterapp;
