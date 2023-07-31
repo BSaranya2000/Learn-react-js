@@ -12,7 +12,8 @@ import './App.css';
 // import Vs from './vs';
  //import Counterparent from './counter/Counterparent';
 //import Fun from './counter/fun';
-import List from './counter/List';
+// import List from './counter/List';
+import List2 from './counter/List2';
 function App() {
   return (
     <div>
@@ -28,7 +29,8 @@ function App() {
     <Vs></Vs> */}
     {/* <Counterparent></Counterparent> */}
     {/* <Fun></Fun> */}
-    <List></List>
+    {/* <List></List> */}
+    <List2></List2>
    </div>
   );
 }
